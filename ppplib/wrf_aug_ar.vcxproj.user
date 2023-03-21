@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommand>E:\PPP_AR\wrf_aug_ar\ppplib\x64\Debug\wrf_aug_ar.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>-C ppp_mgex_wum.conf -S G -M PPP-STATIC -A 7 -L 0</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>..\GNSS_DATA</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+</Project>
